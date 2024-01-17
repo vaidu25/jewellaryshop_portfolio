@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Items</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+		
+		/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: cyan;
+}
+
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Lato", sans-serif;
+			
+            }
+
+            body,
+            html {
+                height: 100%;
+                color: #777;
+                line-height: 1.8;
+				font-size:16px;
+				
+            }
+
+            /* Create a Parallax Effect */
+            .bgimg-1,
+            .bgimg-2,
+            .bgimg-3,
+			.bgimg-4{
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+				color:black;
+				
+            }
+
+            /* First image (Logo. Full height) */
+            .bgimg-1 {
+                background-image: url('https://www.w3schools.com/w3images/parallax1.jpg');
+                min-height: 100%;
+            }
+
+            /* Second image (Portfolio) */
+            .bgimg-2 {
+                background-image: url("https://i.pinimg.com/originals/94/7e/24/947e24deaa91b74297594b8d67cf2ff9.jpg");
+                min-height: 400px;
+            }
+
+            /* Third image (Contact) */
+            .bgimg-3 {
+                background-image: url("https://www.w3schools.com/w3images/parallax3.jpg");
+                min-height: 400px;
+            }
+			
+			/* Fourth image (Items) */
+            .bgimg-4 {
+                background-image: url("https://www.kalyanjewellers.net/images/banners/brands_banner.jpg");
+                min-height: 400px;
+            }
+
+            .w3-wide {
+                letter-spacing: 10px;
+            }
+
+            .w3-hover-opacity {
+                cursor: pointer;
+            }
+
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1600px) {
+
+                .bgimg-1,
+                .bgimg-2,
+                .bgimg-3,
+				.bgimg-4{
+                    background-attachment:fixed;
+                    min-height: 400px;
+                }
+            }
+			form{				
+				color:black;
+				font-size:18px;
+				background-color:#ffcccc;
+				}
+			input{
+				background-color:#ffcccc;
+				color:black;
+				font-size:16px;
+				align:center;
+				}
+			textarea{
+				background-color:#ffcccc;
+				
+				
+			.tempu{background-image:url("https://i.pinimg.com/originals/b5/5a/2d/b55a2d17cbcce555094739a307a65aa7.jpg");
+			background-size:500px 200px;
+			background-position:center;
+			background-repeat:no-repeat;
+			background-attachment:fixed
+			}
+			
+			
+			}
+			
+			.book{
+          background-image: url(https://wallpaperaccess.com/full/745768.jpg); /* The image used for background*/
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-position: center; /* Center the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+		  background-attachment:fixed;
+		  
+      }
+	  
+	  
+	  .copy{
+          background-image: url(https://wallpaperbat.com/img/601164-gold-jewellery-wallpaper-1920x1080-download-hd-wallpaper.jpg); /* The image used for background*/
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-position: center; /* Center the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+		  background-attachment:fixed;
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 50% !important;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1140px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 768px) {
+      .container {
+          max-width: 720px;
+        }
+
+      .link {
+          width: 100%;
+        }
+      }
+      @media (min-width: 576px) {
+      .container {
+          max-width: 540px;
+        }
+      }
+
+      .w3-purple, .w3-hover-purple:hover {
+        color: #fff!important;
+        background-color: rgba(156, 39, 176, 0.6) !important;
+      }
+
+
+        </style>
+     </head>
+<body >
+	<!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+			<div class="w3-card-4 w3-pale-yellow w3-opacity w3-wide" style="word-spacing:25px;">
+            <a href="C:\new project\home.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+            <a href="C:\new project\account.html" target="_blank" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>GALLERY</a>
+            <a href="C:\new project\Shop online.html" target="_blank" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>SHOP ONLINE</a>
+            <a href="C:\new project\aboutus.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-address-book"></i>ABOUT US </a>
+			<a href="C:\new project\contact.html" target="_self" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-comment"></i>CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i></a>
+			</div>
+         </div>
+    </div>
+
+	<!-- Third Parallax Image with ACCOUNT Text -->
+    <div class="bgimg-4 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide w3-text-white">ACCOUNT</span>
+        </div>
+    </div>
+	
+	<!-- form -->
+	<div bgcolor="violet"  style="align:center; bgcolor:pink;">
+	
+	<center><h3> <b><u>	You can create an account for online shopping </u></b> </h3>
+		<div id="tempu"style="align:center;bgcolor:skyblue;color:white;margin:5px;padding-bottom:150px; " class="copy" class="w3-card-4  w3-pale-blue">
+		<table  align="center" border="5" cellpadding="10" cellspacing="5" width="1200px" >
+		
+		
+		
+		<form style="width:80%;" align="center" >
+		<br>
+		<tr><th>Name:	</th><th><input type="text" placeholder="Enter name"></th></tr><br>
+		<tr><th>Father's Name: </th><th><input type="text" placeholder="Enter name"></th></tr><br>
+		<tr><th>Mother's Name: </th><th><input type="text" placeholder="Enter name"></th></tr><br>
+		<tr><th>Date of Birth: </th><th><input type="date" placeholder="Enter date"></th></tr><br>
+		<tr><th>Gender: </th><th><input type="radio">Male <input type="radio"> Female</th></tr><br>
+		<tr><th>Mobile No.:</th><th><input type="number" placeholder="Enter Number"></th></tr><br>
+		<tr><th>Email: </th><th><input type="text" placeholder="Enter Email ID"></th></tr><br>
+		<tr><th>AadharCard No.:</th><th><input type="number" placeholder="Enter Aadhar Number"></th></tr><br>
+		<tr><th>Address: </th><th><textarea type="text" placeholder=" Enter Your Address"></textarea></th></tr><br>
+		<!--<tr cellpadding="5px" cellspacing="5px" rowspan="2x"  ><th type="button" colspan="2">SUBMIT:  </th></tr><br>-->
+		<tr>
+			<td colspan="2" align="center">
+			<input type="submit" value="Submit">
+			<input type="reset" value="reset">
+			</td>
+		</tr>
+
+
+		
+		
+		</div>
+		</form></table></center>
+	</div>
+	<br>
+
+    <!-- Content container -->
+	<div class="book">
+    <div class="container" >
+      <!-- Image and name container. Change to your picture here. -->
+      <div class="image-container" >
+        <center>
+        <img src=https://www.sneharateria.com/cdn/shop/articles/theweddingcorp_900x.png?v1676527615 hight="500px" width="300px"></img></center>center>
+        <div class="w3-text-white">
+          <p class="w3-text-white w3-large"> Welcome to <span class="w3-tag w3-large w3-round w3-black w3-text-white"><strong>Aditya Jewellers</strong></span>link site!
+          </p>
+          <p class="w3-large"><strong>See what I am up to.</strong></p>
+        </div>
+
+        <!-- Links section 1. Replace the # inside of the "" with your links. -->
+        <div class="links-container">
+          <a href="https://www.facebook.com/profile.php?id=61555903370901&mibextid=ZbWKwL" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_self"><i class="fab fa-facebook"></i>Facebook</a>
+          <a href="https://www.instagram.com/aditya_jewellars?utm_source=qr&igsh=bWNkbTE4cTN2eHd3" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_self"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="https://www.linkedin.com/in/vaidehi-verma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+          <a href="https://www.linkedin.com/in/vaidehi-verma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fa fa-code"></i>Linkedin</a>
+        </div>
+      </div>
+    </div>
+</div>
+   
+	
+  <!-- Footer-->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+       
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-small">Aditya Jewellers : A shop that keeps you Auspicious for always!</p>
+    <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>
+    <!-- Footer end. -->
+    </footer>
+	<body class="w3-white">
+</body>
+</html>
